@@ -3,7 +3,7 @@ A munin plugin to monitor fastd uptime, peers and traffic
 
 #### Description
 
-This plugin get's fastd status from its status socket, decode the JSON and extracts uptime, number of peers and traffic.
+This plugin get's fastd status from its status socket, decode the JSON and extracts uptime, number of peers and traffic. Written in perl.
 
 #### Config
 The plugin needs some basic configuration. You have to set user and group of a user that have access to the socket. This should be "fastd".
