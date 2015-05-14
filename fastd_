@@ -18,7 +18,7 @@ Set path to socketfile if not /tmp/fastd.sock
 =head1 USAGE
 
 Link this plugin to /etc/munin/plugins/ with the type of graph (uptime, peers, traffic)
-extended to the linkname, ie: /etc/munin/plugins/fastd_peers
+append to the linkname, ie: /etc/munin/plugins/fastd_peers
 
 After creating the links, restart munin-node. Don't forget to configure the plugin!
 
