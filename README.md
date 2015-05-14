@@ -8,7 +8,7 @@ This plugin get's fastd status from its status socket, decode the JSON and extra
 #### Config
 The plugin needs some basic configuration. You have to set user and group of a user that have access to the socket. This should be "fastd".
 
-If the path to your socket is not /tmp/fastd.sock you have to set the path too.
+If the path to your socket is not /tmp/fastd.sock you have to set the correct path.
 
 #####Example
     [fastd_*]
