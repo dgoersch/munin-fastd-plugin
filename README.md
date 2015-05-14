@@ -17,7 +17,7 @@ If the path to your socket is not /tmp/fastd.sock you have to set the path too.
     env.socketfile /tmp/fastd.sock
 
 #### Usage
-To use this plugin, just copy it to your box (I prefer /usr/local/share/munin/plugins to seperate it from the plugins shipped with munin) and link it to /etc/munin/plugins with the type of graph (uptime, peers, traffic) prepend to the name of the link.
+To use this plugin, just copy it to your box (I prefer /usr/local/share/munin/plugins to seperate it from the plugins shipped with munin) and link it to /etc/munin/plugins with the type of graph (uptime, peers, traffic) append to the name of the link.
 
 #####Example
     ln -s /usr/local/share/munin/plugins/fastd_ /etc/munin/plugins/fastd_uptime
